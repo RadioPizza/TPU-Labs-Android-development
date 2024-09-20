@@ -49,5 +49,7 @@ fun addMissingSpaces(input: String): String {
 }
 
 fun replaceHyphensWithDashes(input: String): String {
-    return input.replace("-", " – ")
+    return input.replace("(\\s*[-–]\\s*)".toRegex(), " – ")
+      .replace("\\s+".toRegex(), " ") // Избавляемся от лишних пробелов
+      .trim() // Убираем пробелы по краям строки
 }
