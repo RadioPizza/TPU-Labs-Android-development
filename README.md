@@ -2,8 +2,35 @@
 
 ## Lab 1: Text Formatting
 
-- Kotlin Basics
-- Regular Expressions
+### Overview
+
+This lab introduces Kotlin basics and demonstrates how to use regular expressions for text formatting. The goal is to create a program that processes an input string and applies a series of formatting transformations to improve its readability.
+
+### Key Transformations
+
+The program performs the following operations on the input string:
+
+- **Quote Replacement:**  replace double quotes (`"`) with proper opening («) and closing (») quotation marks.  Opening quotes should precede words, and closing quotes should follow words (including any punctuation).
+
+- **Space Normalization:** standardize spacing around punctuation.  Remove spaces before commas, periods, opening parentheses, etc., and add spaces after commas, periods, closing parentheses, etc.
+
+- **Hyphen Replacement:** replace hyphens/dashes with en-dashes surrounded by spaces (unless adjacent to letters).
+
+- **Double Space Removal:** replace multiple spaces with single spaces.
+
+### Example Input and Output
+
+#### Input:
+
+```plaintext
+" Лето , как обычно ,пролетело    незаметно..."-грустно сказал Ваня .Он( и его друзья )сидели на берегу речки с поэтичным названием "Стремительная ".
+```
+
+#### Output:
+
+```plaintext
+«Лето, как обычно, пролетело незаметно...» – грустно сказал Ваня. Он (и его друзья) сидели на берегу речки с поэтичным названием «Стремительная».
+```
 
 ## Lab 2: Telephone Station Emulator
 
