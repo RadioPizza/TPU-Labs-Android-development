@@ -34,8 +34,79 @@ The program performs the following operations on the input string:
 
 ## Lab 2: Telephone Station Emulator
 
-- Kotlin Language: Classes and Objects
-- Kotlin Language: Collections
+### Overview
+
+This lab focuses on the fundamentals of working with **Kotlin classes and objects** and demonstrates how to implement **basic object interactions**. The goal is to create a program that simulates the operation of a simple telephone station. The program allows users to manage a list of subscribers and log calls between them.
+
+### Key Features
+
+The program is divided into two main components:
+
+1. **Abonent Class**  
+   Represents a subscriber with the following properties:  
+   - **Name** and **Phone Number**  
+   - A **call log** that stores incoming and outgoing calls.  
+
+2. **Station Class**  
+   Represents the telephone station and includes:  
+   - A **list of subscribers**.  
+   - The ability to **initiate calls** and log them for both the caller and the recipient.  
+   - A method to **display call logs** for all subscribers.  
+
+### Key Functionality
+
+- **Adding Subscribers**  
+  Subscribers can be added to the station using the `addAbonent()` method.  
+
+- **Making Calls**  
+  The `call(from: String, to: String)` method simulates a call from one subscriber to another:  
+  - Logs an **outgoing call** in the caller's call log.  
+  - Logs an **incoming call** in the recipient's call log.  
+
+- **Displaying Call Logs**  
+  The `showStat()` method displays the full call logs of all subscribers in a structured format.
+
+### Example Program Execution
+
+#### Code Example
+
+```kotlin
+fun main() {
+    val station = Station()
+
+    station.addAbonent(Abonent("Иван", "001"))
+    station.addAbonent(Abonent("Ольга", "002"))
+    station.addAbonent(Abonent("Сергей", "003"))
+
+    station.call("Иван", "Ольга")
+    station.call("Ольга", "Сергей")
+    station.call("Сергей", "Иван")
+    station.call("Иван", "Сергей")
+    station.call("Ольга", "Иван")
+
+    station.showStat()
+}
+```
+
+#### Example Output
+
+```plaintext
+Журнал звонков абонента Иван:
+    Исходящий к Ольга
+    Входящий от Сергей
+    Исходящий к Сергей
+    Входящий от Ольга
+
+Журнал звонков абонента Ольга:
+    Входящий от Иван
+    Исходящий к Сергей
+    Исходящий к Иван
+
+Журнал звонков абонента Сергей:
+    Входящий от Ольга
+    Исходящий к Иван
+    Входящий от Иван
+```
 
 ## Lab 3: Project Creation and Program Launch
 
