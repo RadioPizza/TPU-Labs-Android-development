@@ -110,52 +110,36 @@ fun main() {
 
 ## Lab 3: Project Creation and Program Launch
 
-- Text Input and Output, Button, and Listeners
+- Getting to Know Android Studio
 
 ## Lab 4: Simple Calculator
 
-- Activity Lifecycle and GridLayout
+- Text Input and Output, Button, and Listeners
 
 ## Lab 5: Colored Tiles
 
-- ConstraintLayout
+- Activity Lifecycle and GridLayout
 
 ## Lab 6: Quadratic Equation Solver
 
-- Resources
+- ConstraintLayout
 
 ## Lab 7: "Edible - Inedible" Game
 
-- State Preservation, ViewModel, LiveData
+- Resources
 
 ## Lab 8: Unit Converter
 
-- Checkboxes, RadioButtons, Spinners
+- State Preservation, ViewModel, LiveData
 
 ## Lab 9: Questionnaire
 
-- Toast and Snackbar Messages, SeekBar
+- Checkboxes, RadioButtons, Spinners
 
 ## Lab 10: Snackbar Tester
 
-- Debugging and Unit Testing
+- Toast and Snackbar Messages, SeekBar
 
 ## Lab 11: Calculation Testing
 
-- RecyclerView Control Element
-
-## Lab 12: Storefront
-
-- Intents
-
-## Lab 13: City Directory
-
-- Fragments
-
-## Lab 14: City Directory with Fragments
-
-- Dialogs
-
-## Lab 15: Shopping List
-
-- Navigation
+- Debugging and Unit Testing
