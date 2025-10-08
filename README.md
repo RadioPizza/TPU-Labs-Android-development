@@ -110,13 +110,11 @@ fun main() {
 
 ## Lab 3: Project Creation and Program Launch
 
-### Overview
-
 In the third lab, the focus was on getting acquainted with Android Studio and understanding the process of creating and launching an Android project. The primary objective was to initialize a new project using the Empty Views Activity template, configure the project structure, and familiarize with essential project files such as `MainActivity.kt` and `activity_main.xml`. Additionally, this lab covered editing the application's manifest file (`AndroidManifest.xml`) to include necessary permissions, specifically internet access.
 
 ## Lab 4: Simple Calculator
 
-- Text Input and Output, Button, and Listeners
+A basic calculator app with four arithmetic operations. Features two input fields, operation buttons, and a shared event listener that handles all button clicks. The app displays results in "X + Y = Z" format and includes error handling for invalid inputs and division by zero.
 
 ## Lab 5: Colored Tiles
 
