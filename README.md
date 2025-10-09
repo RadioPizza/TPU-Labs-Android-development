@@ -118,7 +118,7 @@ A basic calculator app with four arithmetic operations. Features two input field
 
 ## Lab 5: Colored Tiles
 
-- Activity Lifecycle and GridLayout
+A grid application with colored tiles that change colors when clicked or when the app returns to the screen. Uses GridLayout container and activity lifecycle methods. Each tile shares the same base color but has different transparency levels, creating a gradient effect across the grid.
 
 ## Lab 6: Quadratic Equation Solver
 
