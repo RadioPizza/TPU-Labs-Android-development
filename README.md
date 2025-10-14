@@ -122,7 +122,7 @@ A grid application with colored tiles that change colors when clicked or when th
 
 ## Lab 6: Quadratic Equation Solver
 
-- ConstraintLayout
+A quadratic equation solver that automatically calculates roots when coefficients are changed. Uses ConstraintLayout for the interface and handles all discriminant cases: two real roots, one real root, and no real roots.
 
 ## Lab 7: "Edible - Inedible" Game
 
