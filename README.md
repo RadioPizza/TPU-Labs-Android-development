@@ -1,3 +1,15 @@
+# How to use this repository
+
+Each lab is located in its own directory and contains:
+
+- Source code implementation
+- Additional resources (if any)
+- Report
+
+**Tutorials and methodological guidelines** for each lab are located in the `tutorial` folder at the root of the repository.
+
+To explore a specific lab, navigate to the corresponding directory and open the project in Android Studio.
+
 # Contents
 
 ## Lab 1: Text Formatting
