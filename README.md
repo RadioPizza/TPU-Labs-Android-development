@@ -143,3 +143,68 @@ A quadratic equation solver that automatically calculates roots when coefficient
 ## Lab 11: Calculation Testing
 
 - Debugging and Unit Testing
+
+## Lab 12: Store Showcase
+
+- RecyclerView
+
+## Lab 13: City Guide
+
+- Intents
+
+## Lab 14: City Guide with Fragments
+
+- Fragments
+
+## Lab 15: Shopping List
+
+- Dialogs
+
+## Lab 16: Interactive Tale "Kolobok"
+
+- Navigation
+
+## Lab 17: Super App
+
+- Tabs
+
+## Lab 18: Central Bank Exchange Rates
+
+- Multithreading
+
+## Lab 19: Reading Contact List
+
+- Permissions
+
+## Lab 20: External Controller
+
+- Broadcasts
+- Notifications
+
+## Lab 21: Timer
+
+- Services
+
+## Lab 22: Game "Find the Point!"
+
+- Geolocation
+
+## Lab 23: GitHub Search
+
+- Internet and JSON
+
+## Lab 24: Animated Something
+
+- Drawing
+
+## Lab 25: Reading List
+
+- SQLite Database
+
+## Lab 26: Colors of the Real World
+
+- Camera
+
+## Lab 27: Gravity Ball
+
+- Sensors
