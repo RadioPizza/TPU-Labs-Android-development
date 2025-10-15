@@ -1,3 +1,15 @@
+# How to use this repository
+
+Each lab is located in its own directory and contains:
+
+- Source code implementation
+- Additional resources (if any)
+- Report
+
+**Tutorials and methodological guidelines** for each lab are located in the `tutorial` folder at the root of the repository.
+
+To explore a specific lab, navigate to the corresponding directory and open the project in Android Studio.
+
 # Contents
 
 ## Lab 1: Text Formatting
@@ -122,7 +134,7 @@ A grid application with colored tiles that change colors when clicked or when th
 
 ## Lab 6: Quadratic Equation Solver
 
-- ConstraintLayout
+A quadratic equation solver that automatically calculates roots when coefficients are changed. Uses ConstraintLayout for the interface and handles all discriminant cases: two real roots, one real root, and no real roots.
 
 ## Lab 7: "Edible - Inedible" Game
 
@@ -143,3 +155,68 @@ A grid application with colored tiles that change colors when clicked or when th
 ## Lab 11: Calculation Testing
 
 - Debugging and Unit Testing
+
+## Lab 12: Store Showcase
+
+- RecyclerView
+
+## Lab 13: City Guide
+
+- Intents
+
+## Lab 14: City Guide with Fragments
+
+- Fragments
+
+## Lab 15: Shopping List
+
+- Dialogs
+
+## Lab 16: Interactive Tale "Kolobok"
+
+- Navigation
+
+## Lab 17: Super App
+
+- Tabs
+
+## Lab 18: Central Bank Exchange Rates
+
+- Multithreading
+
+## Lab 19: Reading Contact List
+
+- Permissions
+
+## Lab 20: External Controller
+
+- Broadcasts
+- Notifications
+
+## Lab 21: Timer
+
+- Services
+
+## Lab 22: Game "Find the Point!"
+
+- Geolocation
+
+## Lab 23: GitHub Search
+
+- Internet and JSON
+
+## Lab 24: Animated Something
+
+- Drawing
+
+## Lab 25: Reading List
+
+- SQLite Database
+
+## Lab 26: Colors of the Real World
+
+- Camera
+
+## Lab 27: Gravity Ball
+
+- Sensors
