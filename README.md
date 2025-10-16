@@ -145,7 +145,7 @@ A quadratic equation solver that automatically calculates roots when coefficient
 
 ## Lab 7: "Edible - Inedible" Game
 
-- Resources
+A food recognition game that shows random images where players guess if items are edible or not. The app tracks correct and incorrect answers with score display and supports multiple languages through resource localization.
 
 ## Lab 8: Unit Converter
 
