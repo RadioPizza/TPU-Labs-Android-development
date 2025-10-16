@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="initial_score">Score: 0/0</string>
+    <string name="score_format">Score: %1$d/%2$d</string>
+    <string name="question_text">Is this edible?</string>
+    <string name="edible">Edible</string>
+    <string name="inedible">Inedible</string>
+</resources>
