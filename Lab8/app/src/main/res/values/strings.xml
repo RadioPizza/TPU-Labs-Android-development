@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="converter_title">Конвертер длины</string>
+    <string name="micrometers">В микрометрах:</string>
+    <string name="mils">В милах:</string>
+    <string name="millimeters">В миллиметрах:</string>
+    <string name="lines">В линиях:</string>
+    <string name="inches">В дюймах:</string>
+</resources>

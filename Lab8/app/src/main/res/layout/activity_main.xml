@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/large_margin"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/converter_title"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/large_margin" />
+
+    <!-- Микрометры -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/small_weight"
+            android:text="@string/micrometers"
+            android:textSize="@dimen/medium_text"
+            android:gravity="start"
+            android:labelFor="@+id/etMicrometers" />
+
+        <EditText
+            android:id="@+id/etMicrometers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/big_weight"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+
+    <!-- Милы -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/small_weight"
+            android:text="@string/mils"
+            android:textSize="@dimen/medium_text"
+            android:gravity="start"
+            android:labelFor="@+id/etMils" />
+
+        <EditText
+            android:id="@+id/etMils"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/big_weight"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+
+    <!-- Миллиметры -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/small_weight"
+            android:text="@string/millimeters"
+            android:textSize="@dimen/medium_text"
+            android:gravity="start"
+            android:labelFor="@+id/etMillimeters" />
+
+        <EditText
+            android:id="@+id/etMillimeters"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/big_weight"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+
+    <!-- Линии -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/small_weight"
+            android:text="@string/lines"
+            android:textSize="@dimen/medium_text"
+            android:gravity="start"
+            android:labelFor="@+id/etLines" />
+
+        <EditText
+            android:id="@+id/etLines"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/big_weight"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+
+    <!-- Дюймы -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/small_weight"
+            android:text="@string/inches"
+            android:textSize="@dimen/medium_text"
+            android:gravity="start"
+            android:labelFor="@+id/etInches" />
+
+        <EditText
+            android:id="@+id/etInches"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/big_weight"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/medium_text" />
+    </LinearLayout>
+
+</LinearLayout>
