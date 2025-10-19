@@ -149,7 +149,7 @@ A food recognition game that shows random images where players guess if items ar
 
 ## Lab 8: Unit Converter
 
-- State Preservation, ViewModel, LiveData
+A length conversion app that automatically updates all fields when any value is changed. Uses ViewModel and LiveData to preserve state during configuration changes. Supports conversion between micrometers, mils, millimeters, lines, and inches with real-time synchronization.
 
 ## Lab 9: Questionnaire
 
