@@ -157,7 +157,7 @@ A user registration app demonstrating the use of multiple input controls. Featur
 
 ## Lab 10: Snackbar Tester
 
-- Toast and Snackbar Messages, SeekBar
+A Snackbar customization app that demonstrates advanced notification features. Allows users to create customized Snackbar messages with configurable text, action buttons, and RGB color controls for background, text, and action elements. Uses SeekBar sliders for color component adjustment and includes default values for immediate testing.
 
 ## Lab 11: Calculation Testing
 
