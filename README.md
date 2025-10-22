@@ -161,7 +161,7 @@ A Snackbar customization app that demonstrates advanced notification features. A
 
 ## Lab 11: Calculation Testing
 
-- Debugging and Unit Testing
+An electronics calculator demonstrating unit testing with JUnit. Features specialized calculation methods and comprehensive test coverage for normal/boundary values. Shows error detection through intentional code faults and automated test validation.
 
 ## Lab 12: Store Showcase
 
