@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab10</string>
+
+    <!-- Подписи -->
+    <string name="message_text_label">Текст сообщения:</string>
+    <string name="action_text_label">Текст кнопки действия:</string>
+    <string name="background_color_label">Цвет фона (R, G, B):</string>
+    <string name="text_color_label">Цвет текста (R, G, B):</string>
+    <string name="action_color_label">Цвет кнопки действия (R, G, B):</string>
+    <string name="show_button">Показать</string>
+
+    <!-- Хинты -->
+    <string name="message_hint">Это сообщение</string>
+    <string name="action_hint">OK</string>
+</resources>

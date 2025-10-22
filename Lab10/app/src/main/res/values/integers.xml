@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Начальные значения для ползунков цвета фона -->
+    <integer name="background_r_default">96</integer>
+    <integer name="background_g_default">0</integer>
+    <integer name="background_b_default">255</integer>
+
+    <!-- Начальные значения для ползунков цвета текста -->
+    <integer name="text_r_default">70</integer>
+    <integer name="text_g_default">20</integer>
+    <integer name="text_b_default">192</integer>
+
+    <!-- Начальные значения для ползунков цвета кнопки действия -->
+    <integer name="action_r_default">4</integer>
+    <integer name="action_g_default">44</integer>
+    <integer name="action_b_default">144</integer>
+
+    <!-- Максимальное значение для ползунков -->
+    <integer name="seekbar_max">255</integer>
+</resources>

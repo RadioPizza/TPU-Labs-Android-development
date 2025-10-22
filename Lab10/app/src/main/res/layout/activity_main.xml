@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Текст сообщения -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/message_text_label"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginBottom="@dimen/element_spacing"/>
+
+        <EditText
+            android:id="@+id/messageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/message_hint"
+            android:text="@string/message_hint"
+            android:layout_marginBottom="@dimen/section_spacing"/>
+
+        <!-- Текст кнопки действия -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_text_label"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginBottom="@dimen/element_spacing"/>
+
+        <EditText
+            android:id="@+id/actionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/action_hint"
+            android:text="@string/action_hint"
+            android:layout_marginBottom="@dimen/large_spacing"/>
+
+        <!-- Цвет фона -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/background_color_label"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginBottom="@dimen/element_spacing"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/backgroundR"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/background_r_default"/>
+
+            <SeekBar
+                android:id="@+id/backgroundG"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/background_g_default"/>
+
+            <SeekBar
+                android:id="@+id/backgroundB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/background_b_default"/>
+        </LinearLayout>
+
+        <!-- Цвет текста -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_color_label"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginTop="@dimen/section_spacing"
+            android:layout_marginBottom="@dimen/element_spacing"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/textR"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/text_r_default"/>
+
+            <SeekBar
+                android:id="@+id/textG"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/text_g_default"/>
+
+            <SeekBar
+                android:id="@+id/textB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/text_b_default"/>
+        </LinearLayout>
+
+        <!-- Цвет кнопки действия -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_color_label"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginTop="@dimen/section_spacing"
+            android:layout_marginBottom="@dimen/element_spacing"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/actionR"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/action_r_default"/>
+
+            <SeekBar
+                android:id="@+id/actionG"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/action_g_default"/>
+
+            <SeekBar
+                android:id="@+id/actionB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="@integer/seekbar_max"
+                android:progress="@integer/action_b_default"/>
+        </LinearLayout>
+
+        <!-- Кнопка показа -->
+        <Button
+            android:id="@+id/showButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_button"
+            android:layout_marginTop="@dimen/large_spacing"
+            android:textSize="@dimen/text_size_normal"/>
+
+    </LinearLayout>
+</ScrollView>
