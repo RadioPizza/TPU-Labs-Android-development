@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab9</string>
+    <string name="registration_title">Регистрация</string>
+    <string name="username_hint">Имя пользователя</string>
+    <string name="password_hint">Пароль</string>
+    <string name="country_hint">Страна</string>
+    <string name="phone_hint">Номер телефона</string>
+    <string name="phone_visibility_title">Показывать номер телефона:</string>
+    <string name="visibility_everyone">Всем пользователям</string>
+    <string name="visibility_friends">Только друзьям</string>
+    <string name="visibility_nobody">Никому</string>
+    <string name="terms_agreement">Согласен с условиями использования</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="cancel_button">Отказаться</string>
+    <string name="default_country_code">+7</string>
+</resources>

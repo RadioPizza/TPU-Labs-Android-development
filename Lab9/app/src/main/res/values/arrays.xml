@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Казахстан</item>
+        <item>Беларусь</item>
+        <item>Украина</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>+7</item>
+        <item>+7</item>
+        <item>+375</item>
+        <item>+380</item>
+    </string-array>
+</resources>
