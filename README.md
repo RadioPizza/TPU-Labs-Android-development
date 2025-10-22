@@ -153,7 +153,7 @@ A length conversion app that automatically updates all fields when any value is 
 
 ## Lab 9: Questionnaire
 
-- Checkboxes, RadioButtons, Spinners
+A user registration app demonstrating the use of multiple input controls. Features a Spinner for country selection that dynamically updates the phone code prefix. The app uses a CheckBox to enable/disable the registration button based on user agreement and a RadioGroup for selecting phone number visibility preferences. The interface is built with ScrollView to accommodate various screen sizes.
 
 ## Lab 10: Snackbar Tester
 
