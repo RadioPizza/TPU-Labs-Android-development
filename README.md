@@ -165,7 +165,7 @@ An electronics calculator demonstrating unit testing with JUnit. Features specia
 
 ## Lab 12: Store Showcase
 
-- RecyclerView
+A RecyclerView-based store showcase app demonstrating efficient list handling for product displays. Features CardView elements with product images, names, and prices in a grid layout. Implements interactive cart functionality with dynamic icon toggling (add/remove) and color-coded Snackbar notifications.
 
 ## Lab 13: City Guide
 
