@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Lab12</string>
+    <string name="removed">Удалено: %s</string>
+    <string name="added">Добавлено: %s</string>
+
+    <!-- Названия товаров -->
+    <string name="apple_juice">Яблочный сок</string>
+    <string name="broccoli">Брокколи</string>
+    <string name="carrot">Морковь</string>
+    <string name="cheese">Сыр</string>
+    <string name="chicken_drumstick">Куриная ножка</string>
+    <string name="crab">Краб</string>
+    <string name="donut">Донат</string>
+    <string name="egg">Яйцо</string>
+    <string name="fish">Форель</string>
+    <string name="french_fries_basket">Картошка фри</string>
+    <string name="ice_cream">Мороженое</string>
+    <string name="milk">Молоко</string>
+    <string name="mushroom">Грибы</string>
+    <string name="noodles">Лапша</string>
+    <string name="oatmeal">Каша овсяная</string>
+    <string name="pancakes">Блинчики</string>
+    <string name="peanut_butter">Арахисовая паста</string>
+    <string name="pizza">Пицца</string>
+    <string name="sliced_bread">Хлеб</string>
+    <string name="sushi_rolls">Суши</string>
+
+    <!-- Цены -->
+    <string name="apple_juice_price">195,99 руб</string>
+    <string name="broccoli_price">379,99 руб/кг</string>
+    <string name="carrot_price">22,99 руб/кг</string>
+    <string name="cheese_price">1249,99 руб/кг</string>
+    <string name="chicken_drumstick_price">850,99 руб/кг</string>
+    <string name="crab_price">7600,99 руб/кг</string>
+    <string name="donut_price">49,99 руб</string>
+    <string name="egg_price">109,99 руб/10 шт</string>
+    <string name="fish_price">2199,99 руб/кг</string>
+    <string name="french_fries_basket_price">239,99 руб</string>
+    <string name="ice_cream_price">109,99 руб</string>
+    <string name="milk_price">89,99 руб</string>
+    <string name="mushroom_price">619,99 руб/кг</string>
+    <string name="noodles_price">74,99 руб</string>
+    <string name="oatmeal_price">135,99 руб</string>
+    <string name="pancakes_price">299,99 руб</string>
+    <string name="peanut_butter_price">489,99 руб</string>
+    <string name="pizza_price">577,99 руб</string>
+    <string name="sliced_bread_price">55,99 руб</string>
+    <string name="sushi_rolls_price">199,99 руб</string>
+</resources>

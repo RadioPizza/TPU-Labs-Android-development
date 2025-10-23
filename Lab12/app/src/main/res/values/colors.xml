@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Цвета для сообщений Snackbar -->
+    <color name="snackbar_success">#4CAF50</color>
+    <color name="snackbar_error">#F44336</color>
+
+    <!-- Цвета текста для лучшей читаемости -->
+    <color name="snackbar_success_text">#FFFFFF</color>
+    <color name="snackbar_error_text">#FFFFFF</color>
+</resources>

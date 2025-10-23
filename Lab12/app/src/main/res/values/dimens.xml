@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Отступы -->
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="text_margin_top">8dp</dimen>
+    <dimen name="text_small_margin_top">4dp</dimen>
+
+    <!-- Размеры -->
+    <dimen name="product_image_height">150dp</dimen>
+    <dimen name="cart_button_size">40dp</dimen>
+    <dimen name="product_name_text_size">16sp</dimen>
+    <dimen name="product_price_text_size">14sp</dimen>
+</resources>
