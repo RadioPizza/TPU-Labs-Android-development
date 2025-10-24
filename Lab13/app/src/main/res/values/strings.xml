@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab13</string>
+    <string name="choose_city">Выбрать город</string>
+    <string name="show_on_map">Показать на карте</string>
+    <string name="city">Город: %s</string>
+    <string name="federal_district">Федеральный округ: %s</string>
+    <string name="region">Регион: %s</string>
+    <string name="postal_code">Почтовый индекс: %s</string>
+    <string name="timezone">Часовой пояс: %s</string>
+    <string name="population">Население: %s</string>
+    <string name="founded">Основан в: %s</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="cities_list_title">Выберите город</string>
+    <string name="error_loading_cities">Ошибка загрузки городов</string>
+    <string name="error_parsing_data">Ошибка разбора данных</string>
+</resources>

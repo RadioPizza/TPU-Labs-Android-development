@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_medium"
+    android:background="@color/background_color"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnChooseCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_city"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/margin_bottom_large" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/item_corner_radius"
+            app:cardElevation="@dimen/item_elevation"
+            app:cardUseCompatPadding="true"
+            android:layout_marginStart="@dimen/padding_small"
+            android:layout_marginEnd="@dimen/padding_small"
+            android:layout_marginBottom="@dimen/margin_bottom_medium">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_medium"
+                android:background="@color/card_background">
+
+                <TextView
+                    android:id="@+id/tvCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_color"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:layout_marginBottom="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/federal_district"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/region"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvPostalCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/postal_code"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvTimezone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timezone"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/population"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+                <TextView
+                    android:id="@+id/tvFounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/founded"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginTop="@dimen/padding_small" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnShowOnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_on_map"
+            android:backgroundTint="@color/accent_color"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/padding_small"
+            android:layout_marginEnd="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_top_medium" />
+
+    </LinearLayout>
+</ScrollView>
