@@ -169,7 +169,7 @@ A RecyclerView-based store showcase app demonstrating efficient list handling fo
 
 ## Lab 13: City Guide
 
-- Intents
+An intent-based city information app featuring RecyclerView selection and map integration. Demonstrates explicit intents for activity communication and implicit intents for launching map applications. Includes CSV data loading and modern result handling patterns.
 
 ## Lab 14: City Guide with Fragments
 
