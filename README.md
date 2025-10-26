@@ -173,7 +173,7 @@ An intent-based city information app featuring RecyclerView selection and map in
 
 ## Lab 14: City Guide with Fragments
 
-- Fragments
+A fragment-based city app with responsive dual/single-pane layouts. Features landscape mode with simultaneous list/detail views and portrait mode with navigation. Implements scroll state preservation and fragment lifecycle management for adaptive UI experiences.
 
 ## Lab 15: Shopping List
 
