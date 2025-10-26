@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_very_small">4dp</dimen>
+    <dimen name="margin_bottom_large">24dp</dimen>
+    <dimen name="margin_bottom_medium">16dp</dimen>
+    <dimen name="margin_bottom_small">8dp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="item_corner_radius">8dp</dimen>
+    <dimen name="item_elevation">2dp</dimen>
+</resources>
