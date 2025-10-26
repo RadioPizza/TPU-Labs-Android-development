@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab15</string>
+
+    <!-- Диалог -->
+    <string name="dialog_title_add">Добавить товар</string>
+    <string name="dialog_title_edit">Редактировать товар</string>
+    <string name="dialog_product_label">Товар:</string>
+    <string name="dialog_quantity_label">Количество:</string>
+    <string name="dialog_product_hint">Введите название товара</string>
+    <string name="dialog_quantity_hint">Например: 1 шт или 500 гр</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Отмена</string>
+
+    <!-- Элемент списка -->
+    <string name="item_quantity_format">Количество: %s</string>
+
+    <!-- FAB -->
+    <string name="fab_content_description">Добавить новый товар</string>
+</resources>
