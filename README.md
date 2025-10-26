@@ -177,7 +177,7 @@ A fragment-based city app with responsive dual/single-pane layouts. Features lan
 
 ## Lab 15: Shopping List
 
-- Dialogs
+A shopping list app implementing full CRUD operations using RecyclerView and DialogFragment. Features swipe-to-delete functionality with ItemTouchHelper and follows Material Design principles with Floating Action Button for adding items.
 
 ## Lab 16: Interactive Tale "Kolobok"
 
