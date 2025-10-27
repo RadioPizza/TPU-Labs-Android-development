@@ -181,7 +181,7 @@ A shopping list app implementing full CRUD operations using RecyclerView and Dia
 
 ## Lab 16: Interactive Tale "Kolobok"
 
-- Navigation
+An interactive storybook app demonstrating Android Navigation Component. Features fragment-based navigation with illustrated scenes and choice-driven storyline. Uses NavController for seamless transitions between story fragments and implements a branching narrative with multiple endings based on user decisions.
 
 ## Lab 17: Super App
 
