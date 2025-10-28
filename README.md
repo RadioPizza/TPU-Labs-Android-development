@@ -189,7 +189,7 @@ An app with bottom navigation between Music, Books, and News sections. Implement
 
 ## Lab 18: Central Bank Exchange Rates
 
-- Multithreading
+A currency rates app that downloads XML data from Central Bank using coroutines. Implements background network operations with progress indicator and displays parsed currency values in a RecyclerView.
 
 ## Lab 19: Reading Contact List
 
