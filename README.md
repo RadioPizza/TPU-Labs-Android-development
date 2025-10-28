@@ -193,7 +193,7 @@ A currency rates app that downloads XML data from Central Bank using coroutines.
 
 ## Lab 19: Reading Contact List
 
-- Permissions
+A contacts app demonstrating Android runtime permissions with rationale dialogs and settings fallback. Reads and displays contacts after permission grant.
 
 ## Lab 20: External Controller
 
