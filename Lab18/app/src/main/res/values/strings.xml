@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab18</string>
+    <string name="courses_title">Курсы валют ЦБ РФ</string>
+    <string name="load_currencies_button">Получить курсы валют</string>
+    <string name="loading_success">Загружено %d валют</string>
+    <string name="loading_error">Ошибка загрузки: %s</string>
+    <string name="url_currency_rates">https://www.cbr.ru/scripts/XML_daily.asp</string>
+    <string name="encoding_windows1251">Windows-1251</string>
+</resources>
