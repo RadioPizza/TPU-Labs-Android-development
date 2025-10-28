@@ -185,7 +185,7 @@ An interactive storybook app demonstrating Android Navigation Component. Feature
 
 ## Lab 17: Super App
 
-- Tabs
+An app with bottom navigation between Music, Books, and News sections. Implements scrollable genre tabs with ViewPager2, fixed book category tabs, and a automated news counter with badge management.
 
 ## Lab 18: Central Bank Exchange Rates
 
