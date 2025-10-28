@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab19</string>
+    <string name="get_contacts_button">Получить контакты</string>
+    <string name="contacts_placeholder">Контакты будут отображены здесь</string>
+    <string name="permission_dialog_title">Разрешение на доступ к контактам</string>
+    <string name="permission_rationale_message">Для отображения списка контактов приложению требуется разрешение на доступ к контактам. Без этого разрешения работа невозможна.</string>
+    <string name="ok_button">Ладно</string>
+    <string name="no_thanks_button">Нет, не хочу</string>
+    <string name="denied_dialog_title">Доступ запрещен</string>
+    <string name="denied_dialog_message">Для отображения списка контактов приложению требуется разрешение на доступ к контактам. Без этого разрешения работа, увы, невозможна.\n\nЕсли Вы хотите дать программе ещё один шанс, откройте системные настройки и выдайте разрешение программе на доступ к контактам.</string>
+    <string name="open_settings_button">Открыть настройки</string>
+    <string name="no_thanks_final_button">Нет, спасибо</string>
+    <string name="success_message">Успех! Получены контакты:\n\n%s</string>
+    <string name="no_contacts_found">Контакты не найдены</string>
+    <string name="permission_error">Ошибка: нет разрешения на доступ к контактам</string>
+    <string name="contacts_error">Ошибка при получении контактов: %s</string>
+</resources>
