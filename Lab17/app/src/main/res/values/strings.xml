@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lab17</string>
+
+    <!-- Нижняя навигация -->
+    <string name="music">Музыка</string>
+    <string name="books">Книги</string>
+    <string name="news">Новости</string>
+
+    <!-- Жанры музыки (обновленные) -->
+    <string name="rock">Рок</string>
+    <string name="rap">Реп</string>
+    <string name="pop">Поп</string>
+    <string name="jazz">Джаз</string>
+    <string name="classic">Классика</string>
+    <string name="edm">EDM</string>
+    <string name="techno">Техно</string>
+    <string name="house">Хаус</string>
+    <string name="alternative">Альтернатива</string>
+    <string name="folk">Фолк</string>
+
+    <!-- Книги -->
+    <string name="new_books">Новое</string>
+    <string name="read_books">Прочитанное</string>
+    <string name="new_books_content">Новые книги</string>
+    <string name="read_books_content">Прочитанные книги</string>
+    <string name="unknown_tab">Неизвестная вкладка</string>
+
+    <!-- Новости -->
+    <string name="news_section">Раздел новостей</string>
+    <string name="clear_news">Очистить новости</string>
+
+    <!-- Общие -->
+    <string name="select_tab">Выберите вкладку</string>
+    <string name="music_genre_pattern">Жанр: %s</string>
+</resources>
