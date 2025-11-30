@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab22</string>
+    <string name="game_title">Найди точку!</string>
+    <string name="status_searching">Точка загадана, ищите!</string>
+    <string name="status_found">Ура, точка найдена!</string>
+    <string name="distance_format">Текущее расстояние до точки: %d м</string>
+    <string name="distance_unknown">Текущее расстояние до точки: - м</string>
+    <string name="btn_new_point">Загадать новую точку!</string>
+    <string name="btn_settings">Открыть настройки программы</string>
+    <string name="hint_move">Двигайтесь, чтобы найти загаданную точку!</string>
+    <string name="toast_new_point">Новая точка загадана!</string>
+    <string name="toast_location_error">Не удалось получить текущее местоположение</string>
+    <string name="toast_permission_denied">Разрешение на геолокацию не предоставлено</string>
+    <string name="toast_permission_rationale">Для работы приложения необходимо разрешение на геолокацию</string>
+    <string name="toast_location_access_error">Ошибка доступа к местоположению</string>
+</resources>
