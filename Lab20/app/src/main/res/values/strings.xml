@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab20</string>
+    <string name="button_show_notification">Показать уведомление</string>
+    <string name="notification_title">Управляющий</string>
+    <string name="notification_content">Отсюда можно управлять цветом фона программ.</string>
+    <string name="action_reset_color">СБРОСИТЬ ЦВЕТ</string>
+    <string name="action_set_color">ЗАДАТЬ ЦВЕТ</string>
+    <string name="remote_input_label">Цвет в формате RRGGBB</string>
+    <string name="channel_name">Управление цветом</string>
+    <string name="channel_description">Канал для управления цветом фона</string>
+    <string name="color_selected">Выбран цвет: #%s</string>
+    <string name="invalid_color_format">Неверный формат цвета</string>
+    <string name="hello_world">Hello World!</string>
+</resources>

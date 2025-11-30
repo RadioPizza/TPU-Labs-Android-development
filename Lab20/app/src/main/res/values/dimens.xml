@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="margin_bottom_large">32dp</dimen>
+</resources>
