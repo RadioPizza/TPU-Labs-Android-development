@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interval_label"
+        android:textSize="@dimen/text_size_large"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/vertical_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minutes_label" />
+
+        <EditText
+            android:id="@+id/minutesEditText"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0"
+            android:layout_marginStart="@dimen/horizontal_margin_small"
+            android:layout_marginEnd="@dimen/horizontal_margin_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seconds_label" />
+
+        <EditText
+            android:id="@+id/secondsEditText"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="30"
+            android:layout_marginStart="@dimen/horizontal_margin_small" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/vertical_margin" />
+
+    <TextView
+        android:id="@+id/timerStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_ready"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
