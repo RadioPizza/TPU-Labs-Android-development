@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab27</string>
+    <string name="gravity_sensor_data">Gravity sensor data</string>
+    <string name="gravity_sensor_available">Gravity sensor: %s</string>
+    <string name="gravity_sensor_not_available">Gravity sensor not available</string>
+    <string name="gravity_label">Gravity</string>
+    <string name="position_label">Position</string>
+    <string name="velocity_label">Velocity</string>
+</resources>
